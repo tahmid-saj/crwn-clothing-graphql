@@ -36,7 +36,7 @@ export const CategoriesProvider = ({ children }) => {
         return acc;
       }, {});
 
-      setCategoriesMap(collectionsMap);
+      setCategoriesMap(collectionsMap, loading);
     }
 
   }, [data]);
